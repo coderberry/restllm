@@ -14,7 +14,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 redis = {extras = ["hiredis"], version = "^5.0.1"}
 fastapi = "^0.103.1"
 pydantic-settings = "^2.0.3"
